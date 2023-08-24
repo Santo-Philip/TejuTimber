@@ -1,0 +1,55 @@
+.pic{
+  
+  padding: 0 6px;
+  position:absolute;
+  width: 70%;
+  object-fit: contain;
+  animation: Animbottom 2.6s linear infinite;
+  border-radius:20px;
+}
+.picTwo {
+  width:70%;
+  position: absolute;
+  left:20%;
+  animation: Animtop 3.5s linear infinite;
+  border-radius:20px;
+}
+
+.picThree{
+  
+  padding: 0 6px;
+  position:absolute;
+  width: 70%;
+  left:20%;
+  object-fit: contain;
+  animation: Animbottom 2.6s linear infinite;
+  border-radius:20px;
+}
+.picFour {
+  width:70%;
+  position: absolute;
+  left:10%;
+  animation: Animtop 3.5s linear infinite;
+  border-radius:20px;
+}
+.container {
+  padding: 45% 10px;
+  position: relative;
+}
+
+@keyframes Animbottom{
+ 0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+@keyframes Animtop{
+ 0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: 100px;
+  }
+}

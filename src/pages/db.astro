@@ -1,0 +1,36 @@
+---
+---
+<head>
+  <meta charset="utf-8" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+<meta name="viewport" content="width=device-width" />
+<meta name="generator" content={Astro.generator} />
+<title>Add Product</title>
+</head>
+<body class="bg-gray-50 dark:bg-gray-700">
+<h1 class="text-2xl text-dark dark:text-white p-4 font-bold">Add Product</h1>
+<div class="p-8">
+<form autocomplete="off">
+<div>
+
+<label for="first_name" class="block mb-2 font-medium text-gray-900 dark:text-white">Product name</label>
+<input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"required>
+</div>
+<div>
+<label for="first_name" class="block mb-2 font-medium text-gray-900 dark:text-white">Price</label></label>
+<input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required>
+</div>
+
+<label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Description</label>
+<textarea id="message" rows="4" class="block p-2.5 w-full  text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your product description" required></textarea>
+
+<label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="multiple_files">Upload multiple files</label>
+<input class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="multiple_files" type="file" required multiple>
+<button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mt-4 rounded-full">
+Button
+</button>
+</div>
+
+</form>
+</div>
+</body>

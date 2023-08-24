@@ -1,0 +1,13 @@
+.cbox {
+  height: auto;
+  width: 80%;
+  background: #331D2C;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #EFE1D1;
+  padding:.5rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  top:20px;
+}

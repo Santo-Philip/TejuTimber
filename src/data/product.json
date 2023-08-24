@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Smartphone",
+    "price": 599.99,
+    "stock": 100,
+    "desc": "A high-end smartphone with advanced features.",
+    "img": "IMG_20230822_132846_149.jpg"
+  },
+  {
+    "name": "Smartphone",
+    "price": 599.99,
+    "stock": 100,
+    "desc": "A high-end smartphone with advanced features.",
+    "img": "IMG_20230822_132846_149.jpg"
+  },
+    {
+    "name": "Smarthone",
+    "price": 599.99,
+    "stock": 100,
+    "desc": "A high-end smartphone with advanced features.",
+    "img": "IMG_20230822_132846_149.jpg"
+  }
+]
